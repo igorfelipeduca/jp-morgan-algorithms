@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/reverse-integer/description/
+
 function reverse(x: number): number {
     const string = JSON.stringify(x);
     let parsedString = string.split("").reverse()
